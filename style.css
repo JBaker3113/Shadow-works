@@ -5,6 +5,11 @@
     color:#f9faf8;
 }
 
+.header{
+    display:flex;
+    
+}
+
 a {
     text-decoration:none;
     color:#f9faf8;
@@ -20,4 +25,9 @@ a {
     text: 36px;
     font-style: light italic;
     color: #1f2937
+}
+
+.follow, button{
+    background-color:#3882f6;
+    
 }
