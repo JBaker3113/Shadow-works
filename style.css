@@ -12,18 +12,23 @@ body {
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding:10px
+    padding:10px;
 }
 
 .logo img{
-    /*fix img to rounded corners*/
-    border-radius: 25px;
+    border-radius: 10px;
+}
+
+.link {
+    margin-right:30px;
+    padding:40px;
 }
 
 a,.title,.footer {
     text-decoration:none;
     color:#E5e7eb;
     font: 18px;
+    padding:15px
 }
 
 .title {
@@ -40,8 +45,6 @@ a,.title,.footer {
 }
 
 .mustang img{
-    /*fix img to rounded corners tried creating
-    own div*/
     border-radius: 60px ;
     padding:40px
 
