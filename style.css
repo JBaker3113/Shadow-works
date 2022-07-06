@@ -27,7 +27,7 @@ body {
 a,.title,.footer {
     text-decoration:none;
     color:#E5e7eb;
-    font: 18px;
+    font-size: 18px;
     padding:15px
 }
 
@@ -44,10 +44,20 @@ a,.title,.footer {
     padding:40px 200px;
 }
 
+.titlebx h1 {
+    font-size:48px;
+    font-weight: bolder;
+    color:#f9faf8;
+    text-align: center;
+}
+
+.titlebx p{
+    font-size: 18px;
+}
+
 .mustang img{
     border-radius: 60px ;
     padding:40px
-
 }
 
 .services {
@@ -63,12 +73,13 @@ a,.title,.footer {
     justify-content:center;
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937
+    color: #1f2937;
+    margin-top:20px
 }
 
 .cards {
     justify-content:space-around;
-    padding:50px;
+    padding: 0 50px;
 }
 
 .cards img {
@@ -79,11 +90,17 @@ a,.title,.footer {
 .quote {
     background: #e5e7eb;
     font-size: 36px;
-    font-weight:bold;
     font-style: italic;
     color: #1f2937;
     padding:100px;
     margin:0;
+}
+
+.quote p{
+    display:flex;
+    Font-weight:bold;
+    justify-content: right;
+    margin: 0
 }
 
 .follow {
@@ -105,6 +122,7 @@ button {
 
 .follow {
     display:flex;
+    justify-content: center;
 }
 
 .followtxt {
